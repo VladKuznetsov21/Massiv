@@ -25,9 +25,9 @@ public class Massiv {
         int[] nums = new int[n];
         for (int i = 0; i < nums.length; i++) {
             while(true){
-                int rundNum = random.nextInt(100);
-                if (rundNum % 2 != 0){
-                    nums[i] = rundNum;
+                int Num = random.nextInt(100);
+                if (Num % 2 != 0){
+                    nums[i] = Num;
                     break;
                 }
             }
