@@ -23,20 +23,20 @@ public class Massiv {
         int sum = 0;
         System.out.println("Одномерные Массивы");
         int[] nums = new int[n];
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++){
             while(true){
                 int Num = random.nextInt(100);
-                if (Num % 2 != 0){
+                if (Num %2 != 0){
                     nums[i] = Num;
                     break;
                 }
             }
         }
         Arrays.sort(nums);    
-        for (int i = 1; i < nums.length; i++) {
+        for (int i = 1; i < nums.length; i++){
             System.out.printf("%-3d", nums[i]);
             sum += nums[i];  
-            if (i%10==0){
+            if (i%10 == 0){
                 System.out.println("");
             }
                
